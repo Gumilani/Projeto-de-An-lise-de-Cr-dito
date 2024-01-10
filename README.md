@@ -34,7 +34,7 @@ Nessa análise de dados conseguimos separar as variáveis em dois tipos, em vari
 
 ### Pontos de destaque:
 
-Primeramente comecei com a análise das variáveis categóricas e Conforme descrito na LGPD, existem algumas variáveis que não devemos utilizar para a análise de dados pois não são argumentos que influenciam nas decisões.
+Primeramente comecei com a análise das variáveis categóricas e conforme descrito na LGPD, existem algumas variáveis que não devemos utilizar para a análise de dados pois não são argumentos que influenciam nas decisões.
 
 Baseado nisso, vamos começar nossas análises a partir da variável escolaridade e não da variável sexo.
 
