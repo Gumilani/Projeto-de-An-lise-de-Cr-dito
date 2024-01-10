@@ -34,7 +34,9 @@ Nessa análise de dados conseguimos separar as variáveis em dois tipos, em vari
 
 ### Pontos de destaque:
 
-Primeramente comecei com a análise das variáveis categóricas e conforme descrito na LGPD, existem algumas variáveis que não devemos utilizar para a análise de dados pois não são argumentos que influenciam nas decisões.
+#### Variáveis categóricas:
+
+Conforme descrito na LGPD, existem algumas variáveis que não devemos utilizar para a análise de dados pois não são argumentos que influenciam nas decisões.
 
 Baseado nisso, vamos começar nossas análises a partir da variável escolaridade e não da variável sexo.
 
@@ -61,6 +63,80 @@ Mais uma vez percebemos um padrão de distribuição de frequeência nos 3 gráf
  Conseguimos observar que a maioria das pessoas recebe menos que 40k, vimos também que o maior número de pessoas inadimplentes são as pessoas que recebem menos que 40k.
 
 Por fim temos mais uma categoria que não nos ajuda a explicar de forma clara a questão da inadimplência.
+
+#### Variáveis numéricas:
+
+* Quantidade de Transações nos Últimos 12 meses
+
+<p align="center">
+  <img alt="Tabela" width="100%" src="https://github.com/Gumilani/Projeto-de-Analise-de-Credito/blob/main/qtd_transacoes_12m.png">
+</p>  
+
+Acima conseguimos primeiramente perceber que a maioria dos clientes realizaram entre 20-40 e 60-80 transações nos últimos 12 meses.
+
+ No caso de clientes adimplentes conseguimos perceber que a concentração de transações muda um pouco e fica entre 60-100, já para os clientes inadimplentes o pico que fica entre 20 - 60 transações.
+
+Com essa análise conseguimos perceber que a variável de quantidade de transações no último ano nos ajuda a entender melhor sobre o comportamento das pessoas que se tornam inadimplentes.
+
+* Valor das transações nos últimos 12 meses
+
+<p align="center">
+  <img alt="Tabela" width="100%" src="https://github.com/Gumilani/Projeto-de-Analise-de-Credito/blob/main/valor_transacoes_12m.png">
+</p> 
+
+Acima vemos que grande parte dos valores das transações ficam entre 1000 e 5000. Para os clientes que estão inadimplentes verificamos que o valor de transações nos últimos 12 meses gira em torno de 2500
+
+Desta forma, é possível identificar um padrão de comportamento para os inadimplentes o que indica que podemos considerar mais uma variável que irá nos ajudar a explicar a questão da inadimplência dos clientes do banco.
+
+* Quantidade de Transações nos Últimos 12 meses X Valor das transações nos últimos 12 meses
+
+<p align="center">
+  <img alt="Tabela" width="40%" src="https://github.com/Gumilani/Projeto-de-Analise-de-Credito/blob/main/qtd_valor.png">
+</p> 
+
+Conseguimos perceber com esse gráfico algumas coisas:
+
+*   As pessoas que fazem um número alto de transações e um valor muito alto acabam não sendo inadimplentes.
+*  Percebemos também que temos dois principais grupos das pessoas que acabam virando inadimplentes: um grupo com os valores de transação entre 1000-5000 e outro grupo com o valor de 7500-10000.
+*  Observamos que a quantidade de transações é menos representativa que o valor das transações para determinar a inadimplência, porém é possivel perceber uma alta concentração de inadimplentes com poucas transações na faixa de valor entre 1000 e 5000.
+
+## Conclusão
+
+A ideia principal desse projeto foi compreender melhor o comportamento dos clientes de uma instituição financeira para prevenir a inadimplência, permitindo à instituição concentrar-se mais nesse público e evitar a inadimplência.
+
+As análises foram divididas em duas etapas:
+
+Primeiro foi feito uma análise das seguintes **Variáveis Categóricas**: **Escolaridade**, **Estado Civil**, **Salário Anual** e **Tipo do Cartão**.Através desta análise, pudemos perceber alguns padrões de comportamentos dos clientes como por exemplo:
+
+- A Instituição financeira tem mais da metade dos clientes com graduação ou acima
+- A maioria dos clientes ganham menos que 40k por mês
+- A maioria possui o cartão blue.
+
+Porém percebemos tambem que essas características são iguais ou muito parecidas entre as pessoas adimplentes e as inadimplentes e com isso não conseguimos chegar em uma afirmação do que leva ou não a pessoa ser inadimplente.
+
+ Com isso chegamos em nossa segunda análise referente às **Variáveis Numéricas** que são elas: **Idade**, **Dependentes**, **Meses de Relacionamento**, **Quantidade de Produtos**, **Interações nos últimos 12 meses**, **Meses inativo nos últimos 12 meses**, **limite de crédito**, **Valor das transações nos últimos 12 meses** e **Quantidade de transações nos últimos 12 meses**. Através da observação dessas variáveis foi possível entender melhor o comportamento dos clientes que acabam cometendo a inadimplência.
+
+ As variáveis (`Valor das transações nos últimos 12 meses`) e (`Quantidade de transações nos últimos 12 meses`) são as mais significativas  através das quais notamos que temos dois grandes grupos que tendem ser inadimplentes.
+
+ - Pessoas que fazem transações entre 1000 e 2500 reais e tem um volume baixo de 10 a 60 transações
+ - Pessoas que fazem transações entre 5000 e 10000 reais e tem um volume médio 50 a 80 transações.
+
+Outro ponto importante observado é de que pessoas que fazem um volume alto de transações (acima de 80 no ano) e com valores muito altos (a cima 12500) não é um problema para essa instituição financeira pois esse grupo não tem nenhuma tendencia a se tornar inadimplente sendo portanto um grupo seguro para a institução financeira.
+
+Desta forma, as variáveis numéricas, em especial (valor das transações nos últimos 12 meses) e (quantidade de transações nos últimos 12 meses) são as mais adequadas para que a instituição financeira possa realizar o trabalho preventivo de inadimplência.
+
+## Contato
+
+Estou sempre aberto para sugestões e melhorias do trabalho!
+
+**Links para me acharem:**
+* [LinkedIn](https://www.linkedin.com/in/gustavostafocker/)
+* [GitHub](https://github.com/Gumilani)
+* Email: gstafocker2000@gmail.com
+
+  
+
+
 
 
 
