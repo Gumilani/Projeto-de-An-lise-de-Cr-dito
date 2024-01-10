@@ -50,5 +50,17 @@ Uma única diferença que vemos que é bem sutil porém existe, é que a probabi
 
 Desta forma a Escolaridade não é suficiente para explicar a questão da inadimplência.
 
+* Salário Anual
+
+<p align="center">
+  <img alt="Tabela" width="100%" src="https://github.com/Gumilani/Projeto-de-Analise-de-Credito/blob/main/grafico_salario.png">
+</p>
+
+Mais uma vez percebemos um padrão de distribuição de frequeência nos 3 gráficos apresentados.
+
+ Conseguimos observar que a maioria das pessoas recebe menos que 40k, vimos também que o maior número de pessoas inadimplentes são as pessoas que recebem menos que 40k.
+
+Por fim temos mais uma categoria que não nos ajuda a explicar de forma clara a questão da inadimplência.
+
 
 
