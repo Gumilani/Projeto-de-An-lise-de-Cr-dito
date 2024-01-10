@@ -34,4 +34,21 @@ Nessa análise de dados conseguimos separar as variáveis em dois tipos, em vari
 
 ### Pontos de destaque:
 
+Primeramente comecei com a análise das variáveis categóricas e Conforme descrito na LGPD, existem algumas variáveis que não devemos utilizar para a análise de dados pois não são argumentos que influenciam nas decisões.
+
+Baseado nisso, vamos começar nossas análises a partir da variável escolaridade e não da variável sexo.
+
+* Escolaridade
+
+<p align="center">
+  <img alt="Tabela" width="100%" src="https://github.com/Gumilani/Projeto-de-Analise-de-Credito/blob/main/grafico_escolaridade.png">
+</p>
+
+Ao comparar os 3 gráficos apresentados, podemos verificar que a distribuição das frequências se mantêm praticamente no mesmo padrão.
+
+Uma única diferença que vemos que é bem sutil porém existe, é que a probabilidade de uma pessoa com o doutorado ser inadimplente é maior do que a de uma pessoa com graduação, mas é uma diferença muito pequena e o comportamento das pessoas num geral se mantêm igual.
+
+Desta forma a Escolaridade não é suficiente para explicar a questão da inadimplência.
+
+
 
